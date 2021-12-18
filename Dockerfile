@@ -15,5 +15,8 @@
 FROM locustio/locust
 
 COPY requirements.txt .
+COPY locustfile.py .
 
 RUN pip3 install --user --prefix= -r requirements.txt 
+
+
