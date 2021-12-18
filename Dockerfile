@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM locustio/locust
+FROM container-registry.console.klovercloud.com/klovercloud/locust:latest
 
 COPY requirements.txt .
 COPY locustfile.py .
